@@ -2,7 +2,7 @@
 
 ####demo
 
-[live-demo](https://rawgit.com/bajian/vue-toast/master/dist/demo1.html)
+[live-demo](https://rawgit.com/bajian/vue-toast/master/dist/demo2.html)
 
 > A Vue.js project
 
