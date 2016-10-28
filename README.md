@@ -1,8 +1,8 @@
 # vue-toast
 
-##demo
+####demo
 
-[live-demo](https://cdn.rawgit.com/bajian/vue-toast/master/dist/demo1.html)
+[live-demo](https://rawgit.com/bajian/vue-toast/master/dist/demo1.html)
 
 > A Vue.js project
 
