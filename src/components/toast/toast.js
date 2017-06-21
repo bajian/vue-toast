@@ -1,5 +1,5 @@
 ;
-(function (root, factory)
+var Toast=(function (root, factory)
 {
     if (typeof define === 'function' && define.amd)
     {
@@ -13,6 +13,7 @@
     {
         root.$toast = factory();
     }
+    return factory();
 }(this, function () {
 var isMobile = /iphone|ipad|android|phone|mobile/.test(window.navigator.userAgent.toLocaleLowerCase());
 //辅助函数 ------------------------
@@ -974,3 +975,5 @@ var Toast = {
 
     return Toast;
 }));
+
+export default Toast

@@ -1,12 +1,14 @@
 # vue-toast
 
-####demo
+#### demo
 
 [live-demo](https://rawgit.com/bajian/vue-toast/master/dist/demo2.html)
 
+[github](https://github.com/bajian/vue-toast)
+
 > A Vue.js project
 
-## Build Setup
+## DEMO Build Setup
 
 ``` bash
 # install dependencies
@@ -19,19 +21,29 @@ npm run dev
 npm run build
 ```
 
-####How to install
+#### How to install from code source 
 ``` js
 import Toast from './components/toast'
 
 //change any config u like refer to the `toastDefaultOptions`,such as this one below:（可以在初始化的时候修改参数，参照下面的例子：）
 // Toast.config({
-// 	// position:'top'
+//  // position:'top'
 // })
 
 Vue.use(Toast)
 ```
+#### How to install from NPM
+``` js
+npm install vue-bajiantoast --save
 
-####How to use
+install into Vue:
+import Toast from 'vue-bajiantoast'
+import 'vue-bajiantoast/dist/vue-bajiantoast.min.css'
+
+Vue.use(Toast)
+```
+
+#### How to use
 ``` js
   methods:{
     success(){
